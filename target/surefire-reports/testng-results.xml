@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="23485" started-at="2016-01-24T16:17:16Z" finished-at="2016-01-24T16:17:40Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="23485" started-at="2016-01-24T16:17:16Z" finished-at="2016-01-24T16:17:40Z">
+      <class name="com.org.MaveDemo.AutomationParactice.com.LogOutTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.LogOutTest@4afcd809]" name="before" is-config="true" duration-ms="0" started-at="2016-01-24T21:17:36Z" finished-at="2016-01-24T21:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="logout()[pri:3, instance:com.org.MaveDemo.AutomationParactice.com.LogOutTest@4afcd809]" name="logout" duration-ms="3514" started-at="2016-01-24T21:17:36Z" finished-at="2016-01-24T21:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.LogOutTest@4afcd809]" name="after" is-config="true" duration-ms="0" started-at="2016-01-24T21:17:40Z" finished-at="2016-01-24T21:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.org.MaveDemo.AutomationParactice.com.LogOutTest -->
+      <class name="com.org.MaveDemo.AutomationParactice.com.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.LoginTest@62379589]" name="setup" is-config="true" duration-ms="9736" started-at="2016-01-24T21:17:07Z" finished-at="2016-01-24T21:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CleanBrowser()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.LoginTest@62379589]" name="CleanBrowser" is-config="true" duration-ms="356" started-at="2016-01-24T21:17:16Z" finished-at="2016-01-24T21:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanBrowser -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:1, instance:com.org.MaveDemo.AutomationParactice.com.LoginTest@62379589]" name="Login" duration-ms="18396" started-at="2016-01-24T21:17:17Z" data-provider="ReadExcelData" finished-at="2016-01-24T21:17:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gb9009227@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[k@^123()^]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.LoginTest@62379589]" name="before" is-config="true" duration-ms="0" started-at="2016-01-24T21:17:17Z" finished-at="2016-01-24T21:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.LoginTest@62379589]" name="after" is-config="true" duration-ms="0" started-at="2016-01-24T21:17:35Z" finished-at="2016-01-24T21:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.LoginTest@62379589]" name="tearDown" is-config="true" duration-ms="46" started-at="2016-01-24T21:17:40Z" finished-at="2016-01-24T21:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.org.MaveDemo.AutomationParactice.com.LoginTest -->
+      <class name="com.org.MaveDemo.AutomationParactice.com.VerifyMenuTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.VerifyMenuTest@175c2241]" name="before" is-config="true" duration-ms="0" started-at="2016-01-24T21:17:35Z" finished-at="2016-01-24T21:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="verifymenuLink()[pri:2, instance:com.org.MaveDemo.AutomationParactice.com.VerifyMenuTest@175c2241]" name="verifymenuLink" duration-ms="1091" started-at="2016-01-24T21:17:35Z" finished-at="2016-01-24T21:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymenuLink -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.VerifyMenuTest@175c2241]" name="after" is-config="true" duration-ms="0" started-at="2016-01-24T21:17:36Z" finished-at="2016-01-24T21:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.org.MaveDemo.AutomationParactice.com.VerifyMenuTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

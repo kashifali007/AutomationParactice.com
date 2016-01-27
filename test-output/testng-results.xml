@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="301" started-at="2016-01-24T14:37:34Z" finished-at="2016-01-24T14:37:35Z">
+    <groups>
+      <group name="priority3">
+        <method signature="TestLogOut.logout()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.TestLogOut@49e53c76]" name="logout" class="com.org.MaveDemo.AutomationParactice.com.TestLogOut"/>
+        <method signature="TestVerifyMenu.verifymenuLink()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.TestVerifyMenu@409bf450]" name="verifymenuLink" class="com.org.MaveDemo.AutomationParactice.com.TestVerifyMenu"/>
+      </group> <!-- priority3 -->
+      <group name="priority1">
+        <method signature="TestLogin.Login(java.lang.String, java.lang.String)[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.TestLogin@38d8f54a]" name="Login" class="com.org.MaveDemo.AutomationParactice.com.TestLogin"/>
+      </group> <!-- priority1 -->
+    </groups>
+    <test name="Default test" duration-ms="301" started-at="2016-01-24T14:37:34Z" finished-at="2016-01-24T14:37:35Z">
+      <class name="com.org.MaveDemo.AutomationParactice.com.TestLogOut">
+        <test-method status="FAIL" signature="logout()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.TestLogOut@49e53c76]" name="logout" duration-ms="40" started-at="2016-01-24T19:37:34Z" finished-at="2016-01-24T19:37:35Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"a[@title='Log me out']"}
+Command duration or timeout: 37 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb44deba2067b1761c8862ef21d55250e063', time: '2016-01-13 11:57:39'
+System info: host: 'kashif-PC', ip: '192.168.253.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5a982b8a-0f70-47d7-b8bb-1b5f7e4e7dab
+*** Element info: {Using=xpath, value=a[@title='Log me out']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"a[@title='Log me out']"}
+Command duration or timeout: 37 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb44deba2067b1761c8862ef21d55250e063', time: '2016-01-13 11:57:39'
+System info: host: 'kashif-PC', ip: '192.168.253.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5a982b8a-0f70-47d7-b8bb-1b5f7e4e7dab
+*** Element info: {Using=xpath, value=a[@title='Log me out']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.org.MaveDemo.AutomationParactice.com.TestLogOut.logout(TestLogOut.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"a[@title='Log me out']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb44deba2067b1761c8862ef21d55250e063', time: '2016-01-13 11:57:39'
+System info: host: 'kashif-PC', ip: '192.168.253.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/kashif/AppData/Local/Temp/anonymous8742111466948921107webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10675)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/kashif/AppData/Local/Temp/anonymous8742111466948921107webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10684)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/kashif/AppData/Local/Temp/anonymous8742111466948921107webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12551)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/kashif/AppData/Local/Temp/anonymous8742111466948921107webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12556)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/kashif/AppData/Local/Temp/anonymous8742111466948921107webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12498)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.org.MaveDemo.AutomationParactice.com.TestLogOut -->
+      <class name="com.org.MaveDemo.AutomationParactice.com.TestLogin">
+        <test-method status="PASS" signature="CleanBrowser()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.TestLogin@38d8f54a]" name="CleanBrowser" is-config="true" duration-ms="158" started-at="2016-01-24T19:37:34Z" finished-at="2016-01-24T19:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanBrowser -->
+        <test-method status="FAIL" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.TestLogin@38d8f54a]" name="Login" duration-ms="0" started-at="2016-01-24T19:37:35Z" data-provider="ReadExcelData" finished-at="2016-01-24T19:37:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gb9009227@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[k@^123()^]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[null value in entry: url=null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:39)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:49)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:70)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at com.org.MaveDemo.AutomationParactice.com.TestLogin.Login(TestLogin.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- com.org.MaveDemo.AutomationParactice.com.TestLogin -->
+      <class name="com.org.MaveDemo.AutomationParactice.com.TestVerifyMenu">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.TestVerifyMenu@409bf450]" name="setup" is-config="true" duration-ms="6204" started-at="2016-01-24T19:37:28Z" finished-at="2016-01-24T19:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="verifymenuLink()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.TestVerifyMenu@409bf450]" name="verifymenuLink" duration-ms="53" started-at="2016-01-24T19:37:34Z" finished-at="2016-01-24T19:37:34Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@id='block_top_menu']"}
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb44deba2067b1761c8862ef21d55250e063', time: '2016-01-13 11:57:39'
+System info: host: 'kashif-PC', ip: '192.168.253.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5a982b8a-0f70-47d7-b8bb-1b5f7e4e7dab
+*** Element info: {Using=xpath, value=.//*[@id='block_top_menu']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='block_top_menu']"}
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb44deba2067b1761c8862ef21d55250e063', time: '2016-01-13 11:57:39'
+System info: host: 'kashif-PC', ip: '192.168.253.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5a982b8a-0f70-47d7-b8bb-1b5f7e4e7dab
+*** Element info: {Using=xpath, value=.//*[@id='block_top_menu']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.org.MaveDemo.AutomationParactice.com.TestVerifyMenu.verifymenuLink(TestVerifyMenu.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='block_top_menu']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.49.0', revision: '365eeb44deba2067b1761c8862ef21d55250e063', time: '2016-01-13 11:57:39'
+System info: host: 'kashif-PC', ip: '192.168.253.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/kashif/AppData/Local/Temp/anonymous8742111466948921107webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10675)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/kashif/AppData/Local/Temp/anonymous8742111466948921107webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10684)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/kashif/AppData/Local/Temp/anonymous8742111466948921107webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12551)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/kashif/AppData/Local/Temp/anonymous8742111466948921107webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12556)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/kashif/AppData/Local/Temp/anonymous8742111466948921107webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12498)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymenuLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.org.MaveDemo.AutomationParactice.com.TestVerifyMenu@409bf450]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-24T19:37:35Z" finished-at="2016-01-24T19:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.org.MaveDemo.AutomationParactice.com.TestVerifyMenu -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
